@@ -58,8 +58,8 @@ Then open **normal Termux**.
 ```bash
 pkg update
 pkg install git -y
-git clone https://github.com/xno429175-bot/termux-debian-lxde-prince.git
-cd termux-debian-lxde-prince
+git clone git@github.com:xno429175-bot/lxde-dekstop-V2-by-PRINCE.git
+cd lxde-dekstop-V2-by-PRINCE
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -69,10 +69,7 @@ The setup script downloads the project and starts the installer.
 ## Alternative installation
 
 ```bash
-git clone https://github.com/xno429175-bot/termux-debian-lxde-prince.git
-cd termux-debian-lxde-prince
-chmod +x install.sh
-./install.sh
+
 ```
 
 ## Start LXDE
@@ -89,7 +86,10 @@ Or:
 bash ~/start-prince-lxde.sh
 ```
 
-## Check the installation
+## Check the installatgit clone git@github.com:xno429175-bot/lxde-dekstop-V2-by-PRINCE.git
+cd lxde-dekstop-V2-by-PRINCE
+chmod +x install.sh
+./install.shion
 
 ```bash
 prince-lxde check
