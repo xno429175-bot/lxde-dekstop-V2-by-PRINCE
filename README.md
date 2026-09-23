@@ -69,7 +69,10 @@ The setup script downloads the project and starts the installer.
 ## Alternative installation
 
 ```bash
-
+git clone git@github.com:xno429175-bot/lxde-dekstop-V2-by-PRINCE.git
+cd lxde-dekstop-V2-by-PRINCE
+chmod +x install.sh
+./install.sh
 ```
 
 ## Start LXDE
